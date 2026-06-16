@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 4 - Tailwind Cards</title>
+
+<!-- Tailwind CSS CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-black text-white flex flex-col min-h-screen font-sans">
+
+<!-- BACK BUTTON -->
+<button onclick="history.back()"
+class="fixed top-4 left-4 px-3 py-2 rounded text-white hover:bg-gray-700/40">
+← Back
+</button>
+
+<!-- HEADER -->
+<header class="bg-red-900 text-center p-4">
+    <h1 class="text-xl font-bold">TASK 4</h1>
+    <p class="text-sm text-red-200">Tailwind CSS (Subtopic 4)</p>
+</header>
+
+<!-- NAV -->
+<nav class="bg-black border-b-2 border-red-900 text-center p-3">
+    <a href="#" class="text-red-400 mx-2 hover:text-white">Home</a>
+    <a href="#" class="text-red-400 mx-2 hover:text-white">Crew</a>
+    <a href="#" class="text-red-400 mx-2 hover:text-white">Adventure</a>
+</nav>
+
+<!-- MAIN CONTAINER -->
+<div class="flex flex-col md:flex-row gap-5 p-5">
+
+    <!-- CONTENT -->
+    <div class="md:w-2/3 bg-neutral-900 p-4 rounded-lg">
+        <h2 class="text-lg font-semibold mb-4">Suggested Products:</h2>
+
+        <!-- CARD GRID -->
+        <div class="grid gap-6 md:grid-cols-3">
+
+            <!-- CARD 1 -->
+            <div class="bg-neutral-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl">
+                <img src="https://down-ph.img.susercontent.com/file/sg-11134201-7rfgy-m9ybp5g2p7db46.webp" class="w-full" alt="Product 1">
+                <div class="p-4">
+                    <p class="text-sm mb-3">
+                        Silicone Strap Sport Breathable Bracelet compatible for Apple Watch...
+                    </p>
+                    <a href="https://shopee.ph/Silicone-Strap-Sport-Breathable-Bracelet-compatible-for-Apple-Watch-s10-11-46-Ultra-2-49mm-44mm-40mm-45Mm-41mm-38mm-42mm-IWatch-Series-9-8-7-6-5-3-se-4-i.375432874.20195320539"
+                       target="_blank"
+                       class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">
+                       Buy Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="bg-neutral-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl">
+                <img src="https://down-ph.img.susercontent.com/file/cn-11134207-7ras8-mdvf56ns1iewd9.webp" class="w-full" alt="Product 2">
+                <div class="p-4">
+                    <p class="text-sm mb-3">
+                        Silicone Strap and Case for GA-400/GBA-400/GBA-401 Rubber Watch Band...
+                    </p>
+                    <a href="https://shopee.ph/Silicone-Strap-and-Case-for-GA-400-GBA-400-GBA-401-Rubber-Watch-Band-and-Case-i.375432874.17517178285"
+                       target="_blank"
+                       class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">
+                       Buy Now
+                    </a>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="bg-neutral-800 rounded-lg overflow-hidden transform transition duration-300 hover:-translate-y-3 hover:scale-105 hover:shadow-2xl">
+                <img src="https://down-ph.img.susercontent.com/file/sg-11134201-7rblf-lprmirrr4yuedc.webp" class="w-full" alt="Product 3">
+                <div class="p-4">
+                    <p class="text-sm mb-3">
+                        4rd Modification Kit for GA2100 Stainless Steel Case Screws Watch Band...
+                    </p>
+                    <a href="https://shopee.ph/4rd-Modification-Kit-for-GA2100-Mod-Kit-Stainless-Steel-Case-Screws-Watch-Band-for-GA-2100-2110-Metal-Bezel-Rubber-Strap-i.375432874.25755286033"
+                       target="_blank"
+                       class="bg-red-600 px-4 py-2 rounded hover:bg-red-700">
+                       Buy Now
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+<!-- FOOTER -->
+<footer class="bg-red-900 text-center p-4 mt-auto">
+    <p>CALDERON, ANGEL | TC02 - IT0043L | June 16, 2026</p>
+</footer>
+
+</body>
+</html>
+``
